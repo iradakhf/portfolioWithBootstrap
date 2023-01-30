@@ -4,39 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand yourportfolio" href="#">Your Portfolio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                </ul>
-              </div>
+  <header>
+    <div class="container">
+        <div class="row">
+            <div class="mycol-lg-3 mycol-xl-3 mycol-xxl-3 mycol-3 mycol-md-3 mycol-sm-3 heading">
+                <h3>Your Name</h3>
             </div>
-          </nav>
-          
-    </header>
+            <div class="mycol-lg-7 mycol-xl-7 mycol-xxl-7 mycol-7 mycol-sm-7 mycol-md-7 text-end right">
+                <ul>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</header>
     <main>
         <div class="generalMain">
+          <div class="container">
             <div class="row justify-content-around general">
-                <div class="col-lg-7 col-xl-7 col-xxl-7 col-md-7 left">
+                <div class="mycol-lg-7 mycol-xl-7 mycol-xxl-7 mycol-md-12 mycol-12 mycol-sm-12 left">
                     <h3>Contact</h3>
                     <div class="imgAndTextPart row justify-content-around">
                        <h4>Name</h4>
@@ -47,22 +46,27 @@
                       <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
-                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-3 right">
-                    <h3>Connect with Me</h3>
-                    <div class="img">
-                        <div class="row justify-content-between">
-                            <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-3 col-3"><img src="assets/images/download.png" alt=""></div>
-                            <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-3 col-3"><img src="assets/images/download.png" alt=""></div>
-                            <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-4 col-sm-3 col-3"><img src="assets/images/download.png" alt=""></div>
-                        </div>
-                    </div>
-                </div>
+                <div class="mycol-lg-3 mycol-xl-3 mycol-xxl-3 mycol-md-12 mycol-sm-12 mycol-12 right">
+                  <h3>Connect with Me</h3>
+                  <div class="img">
+                      <div class="row justify-content-between">
+                          <div class="mycol-lg-3 mycol-xl-3 mycol-xxl-3 mycol-md-3 mycol-sm-2 mycol-2"><img src="assets/images/download.png" alt=""></div>
+                          <div class="mycol-lg-3 mycol-xl-3 mycol-xxl-3 mycol-md-3 mycol-sm-2 mycol-2"><img src="assets/images/download.png" alt=""></div>
+                          <div class="mycol-lg-3 mycol-xl-3 mycol-xxl-3 mycol-md-3 mycol-sm-2 mycol-2"><img src="assets/images/download.png" alt=""></div>
+                      </div>
+                  </div>
+              </div>
             </div>
+
+          </div>
         </div>
     </main>
     <footer>
        <div class="footerGeneral">
-        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="container">
+          <p>Lorem ipsum dolor sit amet.</p>
+
+        </div>
        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
