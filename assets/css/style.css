@@ -160,8 +160,8 @@ footer .footerGeneral p {
 .box .overlay {
   position: absolute;
   bottom: 20px;
-  left: 10px;
-  width: 90%;
+  left: 12px;
+  width: 87.5%;
   background-color: #02a39d;
   color: white;
   text-align: center;
